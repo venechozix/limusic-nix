@@ -2,6 +2,7 @@
   appimageTools,
   fetchurl,
   libappindicator-gtk3,
+  libgpg-error,        
   symlinkJoin,
   webkitgtk_4_1,
 }:
@@ -23,6 +24,7 @@ let
     extraPkgs = appimagePkgs: with appimagePkgs; [
       webkitgtk_4_1
       libappindicator-gtk3
+      libgpg-error
     ];
   };
 in
