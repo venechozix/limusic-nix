@@ -5,7 +5,7 @@ Nix packaging for the official Limusic Linux AppImage.
 Run it directly:
 
 ```bash
-nix run github:davidvanderklay/limusic-nix
+nix run github:venechozix/limusic-nix
 ```
 
 Use it as a flake input:
